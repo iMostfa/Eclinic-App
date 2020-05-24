@@ -20,8 +20,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
     // Create the SwiftUI view that provides the window contents.
-    let contentView = ContentView()
-.environmentObject(DoctorListViewModel(LocalRepository()))
+    let doctor = Doctor(id: 0,
+                        name: "Mostfa Essam",
+                        image: "meDummy",
+                        description: "Ana GAMEEEEEEEEEEEEEDAwwwy",
+                        location: "Gamed",
+                        rating: "5",
+                        daysAvilable: ["May", "Mon"])
+    let contentView = MenuView()
+         .environmentObject(DoctorListViewModel(LocalRepository()))
+       .environmentObject(AppointmentViewModel(doctor: doctor, LocalRepository()))
+      .environmentObject(ScreenshotsManger())
     // Use a UIHostingController as window root view controller.
     if let windowScene = scene as? UIWindowScene {
         let window = UIWindow(windowScene: windowScene)

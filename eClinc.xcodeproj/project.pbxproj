@@ -23,6 +23,13 @@
 		5C16C1D5247122A100E80604 /* ClincErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16C1D4247122A100E80604 /* ClincErrors.swift */; };
 		5C16C1D8247122C400E80604 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16C1D7247122C400E80604 /* CombineHelpers.swift */; };
 		5C16C1DA247136FE00E80604 /* SwiftUIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16C1D9247136FE00E80604 /* SwiftUIHelpers.swift */; };
+		5CA58693247522FB00B2F8FD /* AppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA58692247522FB00B2F8FD /* AppointmentViewModel.swift */; };
+		5CEC71D424750F6100B20F8F /* HandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC71D324750F6100B20F8F /* HandleView.swift */; };
+		5CEC71D624750F8F00B20F8F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC71D524750F8F00B20F8F /* CardView.swift */; };
+		5CEC71D8247519E200B20F8F /* DoctorsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC71D7247519E200B20F8F /* DoctorsListView.swift */; };
+		5CEC71DA24751CB500B20F8F /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC71D924751CB500B20F8F /* AppointmentView.swift */; };
+		5CEE3CA8247A94CA008ABEAC /* ScreenshostManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3CA7247A94CA008ABEAC /* ScreenshostManger.swift */; };
+		5CEE3CAA247A97D0008ABEAC /* ClinicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE3CA9247A97D0008ABEAC /* ClinicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +51,13 @@
 		5C16C1D4247122A100E80604 /* ClincErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClincErrors.swift; sourceTree = "<group>"; };
 		5C16C1D7247122C400E80604 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 		5C16C1D9247136FE00E80604 /* SwiftUIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHelpers.swift; sourceTree = "<group>"; };
+		5CA58692247522FB00B2F8FD /* AppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewModel.swift; sourceTree = "<group>"; };
+		5CEC71D324750F6100B20F8F /* HandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleView.swift; sourceTree = "<group>"; };
+		5CEC71D524750F8F00B20F8F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5CEC71D7247519E200B20F8F /* DoctorsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsListView.swift; sourceTree = "<group>"; };
+		5CEC71D924751CB500B20F8F /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		5CEE3CA7247A94CA008ABEAC /* ScreenshostManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshostManger.swift; sourceTree = "<group>"; };
+		5CEE3CA9247A97D0008ABEAC /* ClinicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,7 @@
 		5C16C19C2471111B00E80604 /* eClinc */ = {
 			isa = PBXGroup;
 			children = (
+				5CEE3CA6247A94B7008ABEAC /* Mangers */,
 				5C16C1D6247122B700E80604 /* Helpers */,
 				5C16C19D2471111B00E80604 /* AppDelegate.swift */,
 				5C16C19F2471111B00E80604 /* SceneDelegate.swift */,
@@ -103,6 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				5C16C1A12471111B00E80604 /* ContentView.swift */,
+				5CEE3CA9247A97D0008ABEAC /* ClinicView.swift */,
+				5CEC71D924751CB500B20F8F /* AppointmentView.swift */,
+				5CEC71D7247519E200B20F8F /* DoctorsListView.swift */,
+				5CEC71D324750F6100B20F8F /* HandleView.swift */,
+				5CEC71D524750F8F00B20F8F /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				5C16C1C5247114CD00E80604 /* DoctorListViewModel.swift */,
+				5CA58692247522FB00B2F8FD /* AppointmentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -143,6 +164,14 @@
 				5C16C1D9247136FE00E80604 /* SwiftUIHelpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5CEE3CA6247A94B7008ABEAC /* Mangers */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE3CA7247A94CA008ABEAC /* ScreenshostManger.swift */,
+			);
+			path = Mangers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +270,17 @@
 				5C16C19E2471111B00E80604 /* AppDelegate.swift in Sources */,
 				5C16C1CE247119FF00E80604 /* AvailableSlot.swift in Sources */,
 				5C16C1C6247114CD00E80604 /* DoctorListViewModel.swift in Sources */,
+				5CEC71D424750F6100B20F8F /* HandleView.swift in Sources */,
+				5CEE3CAA247A97D0008ABEAC /* ClinicView.swift in Sources */,
+				5CA58693247522FB00B2F8FD /* AppointmentViewModel.swift in Sources */,
+				5CEC71D624750F8F00B20F8F /* CardView.swift in Sources */,
+				5CEC71D8247519E200B20F8F /* DoctorsListView.swift in Sources */,
 				5C16C1D3247120E700E80604 /* LocalRepository.swift in Sources */,
 				5C16C1D024711B0300E80604 /* AvailableDay.swift in Sources */,
 				5C16C1C82471155C00E80604 /* ClinicRepository.swift in Sources */,
+				5CEE3CA8247A94CA008ABEAC /* ScreenshostManger.swift in Sources */,
 				5C16C1CA247115DC00E80604 /* Clinic.swift in Sources */,
+				5CEC71DA24751CB500B20F8F /* AppointmentView.swift in Sources */,
 				5C16C1A02471111B00E80604 /* SceneDelegate.swift in Sources */,
 				5C16C1D5247122A100E80604 /* ClincErrors.swift in Sources */,
 				5C16C1A22471111B00E80604 /* ContentView.swift in Sources */,
