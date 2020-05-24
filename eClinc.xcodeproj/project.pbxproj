@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C16C19E2471111B00E80604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16C19D2471111B00E80604 /* AppDelegate.swift */; };
 		5C16C1A02471111B00E80604 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16C19F2471111B00E80604 /* SceneDelegate.swift */; };
-		5C16C1A22471111B00E80604 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16C1A12471111B00E80604 /* ContentView.swift */; };
+		5C16C1A22471111B00E80604 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16C1A12471111B00E80604 /* MenuView.swift */; };
 		5C16C1A42471112000E80604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C16C1A32471112000E80604 /* Assets.xcassets */; };
 		5C16C1A72471112000E80604 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C16C1A62471112000E80604 /* Preview Assets.xcassets */; };
 		5C16C1AA2471112000E80604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C16C1A82471112000E80604 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 		5C16C19A2471111B00E80604 /* EClinc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EClinc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C16C19D2471111B00E80604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C16C19F2471111B00E80604 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C16C1A12471111B00E80604 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C16C1A12471111B00E80604 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		5C16C1A32471112000E80604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C16C1A62471112000E80604 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C16C1A92471112000E80604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		5C16C1BF2471145800E80604 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5C16C1A12471111B00E80604 /* ContentView.swift */,
+				5C16C1A12471111B00E80604 /* MenuView.swift */,
 				5CEE3CA9247A97D0008ABEAC /* ClinicView.swift */,
 				5CEC71D924751CB500B20F8F /* AppointmentView.swift */,
 				5CEC71D7247519E200B20F8F /* DoctorsListView.swift */,
@@ -283,7 +283,7 @@
 				5CEC71DA24751CB500B20F8F /* AppointmentView.swift in Sources */,
 				5C16C1A02471111B00E80604 /* SceneDelegate.swift in Sources */,
 				5C16C1D5247122A100E80604 /* ClincErrors.swift in Sources */,
-				5C16C1A22471111B00E80604 /* ContentView.swift in Sources */,
+				5C16C1A22471111B00E80604 /* MenuView.swift in Sources */,
 				5C16C1CC2471177A00E80604 /* Doctor.swift in Sources */,
 				5C16C1DA247136FE00E80604 /* SwiftUIHelpers.swift in Sources */,
 				5C16C1D8247122C400E80604 /* CombineHelpers.swift in Sources */,
